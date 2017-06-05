@@ -1,0 +1,91 @@
+menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+menu-item-desc {
+    display: block;
+    color: #009900;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.menu-section{
+    border-left: 5px solid #93292C;
+    background-color: #FDF2F0;
+    margin: 0;
+    margin-bottom: 10px;
+    min-height: 200px;
+    width: 100%;
+    float: left;
+}
+
+.menu-section table{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.menu-section th {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.menu-section td {
+    padding: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.menu-section td#column-thin {width: 90px;}
+
+.menu-section tr {
+    text-align: left;
+    vertical-align: top;
+}
+
+.menu-section tr:first-child{
+    border-bottom: 3px solid #93292C; 
+}
+
+.menu-section tr:nth-child(even){
+    background-color: #F0D5E2;
+}
+
+.menu-section tr:hover {
+    background-color: #ffbabd;
+}
+
+.menu-section p{
+    margin: 0;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+    font-size: 13px;
+    color: #93292C;
+}
+
+
+div.gallery {
+    border: 3px solid #93292C;
+    float: left;
+    min-height: 200px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+    display: inline;
+    background-size: cover;
+    padding: 15px;
+}
+
+div.gallery:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}

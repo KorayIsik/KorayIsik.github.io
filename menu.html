@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- set view to match device width and initial zoom to be normal -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">    
+    <script src="assets/js/menuXMLParser.js"></script>
+    <script src="assets/js/scroll.js"></script>
+</head>
+<body onload="loadMenuFromXML('menu.xml', 'menu')">
+
+    <div>
+        <ul class="nav">
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true" style="font-size: 18px;"></i></a></li>
+            <li><a href="#" class="current-page">Menu <i class="fa fa-cutlery" aria-hidden="true"></i></a></li>
+            <li><a href="index.html#anchorContact">Contact</a></li>
+            <li><a href="index.html#anchorLocation">Location</a></li>
+        </ul>
+    </div>
+
+    <button onclick="topFunction()" id="button_backToTop" title="Back to Top"><i class="fa fa-arrow-up" aria-hidden="true" style="font-size: 30px;"></i></button>
+
+
+    <div class="content">
+        <div class="banner">
+            <h1 class="title">Test Site</h1>
+            <div class="slideshow-slide" style="display: block; background-image: url('assets/images/banner.png');"></div>
+        </div>
+
+        <div id="animate-fadeIn2">
+            <h2 id="centered"> Menu </h2>
+            <div id="menu"></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
