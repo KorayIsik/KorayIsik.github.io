@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="assets/css/style.css">    
     <script src="assets/js/menuXMLParser.js"></script>
     <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/loader.js"></script>
 </head>
-<body onload="loadMenuFromXML('menu.xml', 'menu')">
+<body onload="loadMenuFromXML('menu.xml', 'menu');loadContent('menuContainer', 'loaderContainer', 3);">
 
     <div>
         <ul class="nav">
@@ -28,8 +29,9 @@
             <div class="slideshow-slide" style="display: block; background-image: url('assets/images/banner.png');"></div>
         </div>
 
-        <div id="animate-fadeIn2">
-            <h2 id="centered"> Menu </h2>
+        <h2 id="centered"> Menu </h2>
+        <div id="loaderContainer"><div id="menuLoader" class="animate-loader"></div></div>
+        <div style="display:none;" id="menuContainer" class="animate-bottom" onload="">     
             <div id="menu"></div>
         </div>
 
