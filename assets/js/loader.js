@@ -1,3 +1,12 @@
+window.onload = function () {
+    		console.log("1");
+		    if (localStorage["menuLoaded"] === null) {
+		        loadContent('menuContainer', 'loaderContainer', 3);
+		        console.log("2");
+		        localStorage.setItem("menuLoaded", true);
+		    }
+		}
+
 function loadContent(contentDiv, loaderDiv, delay) {
 	setTimeout(function() {
 	    showContent(contentDiv, loaderDiv);
