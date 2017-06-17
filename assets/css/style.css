@@ -44,6 +44,11 @@ html {
     width: 100%;
 }
 
+.text-centered {
+    width: 100%;
+    text-align: center;
+}
+
 
 
 
@@ -108,9 +113,6 @@ div.content-wide {
 }
 
 
-
-
-
 /* TABLET */
 @media screen and (max-width: 800px) {
     div.content, div.content-wide {
@@ -134,5 +136,12 @@ div.content-wide {
     .right, .left {
         clear: both;
         width: 100%;
+    }
+}
+
+
+@media print {
+    img, .gallery, .banner, .nav, #button_backToTop, a {
+        display: none !important;
     }
 }
