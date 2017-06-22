@@ -30,7 +30,6 @@
 <body>
 	<script type="text/javascript">
     	window.onload = function () {
-    		console.log(localStorage.getItem("menuPageLoaded"));
     		loadMenuFromXML('menu.xml', 'menu');
 		    if (localStorage.getItem("menuPageLoaded") == null) {
 		        loadContent('menuContainer', 'loaderContainer', 3);

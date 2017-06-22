@@ -54,6 +54,11 @@ function parseXML(xml){
 			var item = {}//create an object to store the current item
 
 			item.name = elements_item[count_item].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+			item.style = "";
+			style = elements_item[count_item].getAttribute("style");
+			if (style != null) {
+				item.style = style;
+			}
 			item.desc = null;
 			item.columns = [];
 
@@ -115,7 +120,13 @@ function display(menu, divID){
 		//menu section items
 		for(var count_item=0; count_item<section.items.length; count_item++){
 			var item = section.items[count_item];
-			html += "<tr><td>"
+			html += "<tr class='";
+			if (item.style.includes("right-align")) {
+				html += "menu-right-align";
+			}if (item.style.includes("emphasize")) {
+				html += " menu-emphasize";
+			}
+			html += "'><td>"
 				+ item.name;
 
 			if (item.desc != null) {
@@ -128,7 +139,7 @@ function display(menu, divID){
 
 			//menu item columns
 			for(var count_itemCols=0; count_itemCols<item.columns.length; count_itemCols++){
-				html += "<td id='column-thin'>"
+				html += "<td class='menu-center-align' id='column-thin'>"
 					+ item.columns[count_itemCols]
 					+ "</td>";
 			}

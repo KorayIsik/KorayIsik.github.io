@@ -68,6 +68,13 @@
             <column>$19.90</column>
         </item>
 
+        <item style="right-align emphasize">
+            <name>TEST</name>
+            <description>Description</description>
+            <column>$111</column>
+            <column>$119.90</column>
+        </item>
+
         <subtext> - Sides - </subtext>
         <subtext>Garlic Bread: $5.50</subtext>
         <subtext>Garlic Bread and Cheese: $7.00</subtext>

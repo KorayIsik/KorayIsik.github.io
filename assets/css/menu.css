@@ -3,6 +3,28 @@ menu {
     padding: 0px;
 }
 
+.menu-right-align {
+    text-align: right !important;
+}
+
+.menu-center-align {
+    text-align: center !important;
+}
+
+.menu-emphasize {
+    font-weight: bold;
+}
+
+.menu-section p{
+    margin: 0;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: italic;
+    font-size: 13px;
+    color: #93292C;
+}
+
 menu-item-desc {
     display: block;
     color: #009900;
@@ -57,15 +79,7 @@ menu-item-desc {
     background-color: #ffbabd;
 }
 
-.menu-section p{
-    margin: 0;
-    padding: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-style: italic;
-    font-size: 13px;
-    color: #93292C;
-}
+
 
 
 div.gallery {
