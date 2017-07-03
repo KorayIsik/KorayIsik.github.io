@@ -106,7 +106,7 @@ function display(menu, divID){
 
 		//menu section heading
 		html += '<div class="menu-section">'
-			+ "<table><tr><th>"
+			+ "<table><tr><th class='leftText'>"
 			+ section.heading.name
 			+ "</th>";
 

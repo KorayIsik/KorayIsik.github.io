@@ -1,398 +1,432 @@
 <?xml version="1.0" encoding="UTF-8" ?> 
 <menu dateUpdated="4/6/17">
-    <section>
-        <image>assets/images/img7-min.jpeg</image>
-
-        <heading>
-            <name>Charcoal Kebab Skewers</name>
-            <column>Double</column>
-            <column>Triple</column>
-        </heading>
-
-        <item>
-            <name>Adana Kebab Plate</name>
-            <column>$17</column>
-            <column>$24</column>
-        </item>
-        <item>
-            <name>Chicken Shish Plate</name>
-            <column>$17</column>
-            <column>$24</column>
-        </item>
-        <item>
-            <name>Lamb Shish Plate</name>
-            <column>$18</column>
-            <column>$24</column>
-        </item>
-        <item>
-            <name>Mixed Grills Plate (Adana, Chicken &amp; Lamb Shish)</name>
-            <column> </column>
-            <column> </column>
-        </item>
-
-        <subtext>All plates served with salad &amp; Turkish bread or rice</subtext>
-    </section>
-
 
     <section>
-    	<image>assets/images/img6-min.jpeg</image>
+        <image>assets/images/pizza3.jpeg</image>
 
         <heading>
             <name>Pizza</name>
-            <column>Small 9&quot;</column>
+            <column>Regular 9&quot;</column>
             <column>Large 13&quot;</column>
         </heading>
 
         <item>
-            <name>Vegetarian Pizza</name>
-            <description>Tomato, onion, capsicum, olives, mushroom, jalapeno &amp; cheese</description>
-            <column>$13</column>
-            <column>$19.90</column>
+            <name>1. Vegetarian Pizza</name>
+            <description>Tomato, onion, capsicum, olives, mushroom &amp; cheese</description>
+            <column>13</column>
+            <column>20</column>
         </item>
         <item>
-            <name>Chicken Pizza</name>
-            <description>Chicken, tomato, onion, capsicum, olives, mushroom, jalapeno &amp; cheese</description>
-            <column>$13</column>
-            <column>$19.90</column>
+            <name>2. Chicken Pizza</name>
+            <description>Chicken, tomato, onion, capsicum, olives, mushroom &amp; cheese</description>
+            <column>13</column>
+            <column>20</column>
         </item>
         <item>
-            <name>Beef Pizza</name>
-            <description>Beef, tomato, onion, capsicum, olives, mushroom, jalapeno &amp; cheese</description>
-            <column>$13</column>
-            <column>$19.90</column>
+            <name>3. Beef Pizza</name>
+            <description>Beef, tomato, onion, capsicum, olives, mushroom &amp; cheese</description>
+            <column>13</column>
+            <column>20</column>
         </item>
         <item>
-            <name>Meat Lovers Pizza</name>
+            <name>4. Meat Lovers Pizza</name>
             <description>Beef, chicken, Turkish sausage, cheese &amp; BBQ sauce</description>
-            <column>$13</column>
-            <column>$19.90</column>
+            <column>15</column>
+            <column>21</column>
+        </item>
+        <item>
+            <name>5. Hawaiian Pizza</name>
+            <description>Chicken or Beef with pineapple, capsicum, onion &amp; cheese</description>
+            <column>13</column>
+            <column>20</column>
+        </item>
+        <item>
+            <name>6. Mexicano</name>
+            <description>Chicken or Beef with jalapeno, capsicum, onion, cheese &amp; chilli sauce</description>
+            <column>13</column>
+            <column>20</column>
+        </item>
+        <item>
+            <name>7. Cheese</name>
+            <column>10</column>
+            <column>17</column>
+        </item>
+        <item>
+            <name>8. Cheese &amp; Garlic</name>
+            <column>10</column>
+            <column>17</column>
+        </item>
+        <item>
+            <name>9. Sucuk Pizza</name>
+            <column>13</column>
+            <column>20</column>
         </item>
 
         <item style="right-align emphasize">
-            <name>TEST</name>
-            <description>Description</description>
-            <column>$111</column>
-            <column>$119.90</column>
+            <name>Extra Beef, Chicken or Sucuk (Turkish sausage)</name>
+            <column>2</column>
+            <column>3</column>
         </item>
-
-        <subtext> - Sides - </subtext>
-        <subtext>Garlic Bread: $5.50</subtext>
-        <subtext>Garlic Bread and Cheese: $7.00</subtext>
+        <item style="right-align emphasize">
+            <name>Other extras</name>
+            <description>(each)</description>
+            <column>1</column>
+            <column>2</column>
+        </item>
     </section>
 
-
     <section>
-        <image>assets/images/img7-min.jpeg</image>
+        <image>assets/images/pizza2.jpeg</image>
 
         <heading>
-            <name>Turkish Pide</name>
-            <column>Small</column>
+            <name>Turkish Pide - Vegetarian</name>
+            <column>Regular</column>
             <column>Large</column>
         </heading>
 
         <item>
             <name>1. Spinach &amp; Mushroom with cheese</name>
-            <column>$10</column>
-            <column>$17.50</column>
+            <column>10</column>
+            <column>17.50</column>
         </item>
         <item>
-            <name>2. Spinach &amp; Onion with cheese</name>
-            <column>$10</column>
-            <column>$17.50</column>
+            <name>2. Mushroom &amp; Onion with cheese</name>
+            <column>10</column>
+            <column>17.50</column>
         </item>
         <item>
-            <name>3. Spinach &amp; Olives with feta cheese</name>
-            <column>$10</column>
-            <column>$17.50</column>
+            <name>3. Eggplant &amp; Mushroom with garlic yoghurt &amp; cheese</name>
+            <column>10</column>
+            <column>17.50</column>
         </item>
         <item>
-            <name>4. Mushroom &amp; Onion with cheese</name>
-            <column>$10</column>
-            <column>$17.50</column>
+            <name>4. Potato &amp; Parsley with onion &amp; cheese</name>
+            <column>10</column>
+            <column>17.50</column>
         </item>
         <item>
-            <name>5. Eggplant &amp; Mushroom with garlic yoghurt &amp; cheese</name>
-            <column>$10</column>
-            <column>$17.50</column>
+            <name>5. Parsley &amp; Egg with cheese</name>
+            <column>10</column>
+            <column>17.50</column>
         </item>
         <item>
-            <name>6. Asparagus &amp; Cheese with onion &amp; tomato</name>
-            <column>$10</column>
-            <column>$17.50</column>
-        </item>
-        <item>
-            <name>7. Potato &amp; Parsley with onion &amp; cheese</name>
-            <column>$10</column>
-            <column>$17.50</column>
-        </item>
-        <item>
-            <name>8. Parsley &amp; Egg with cheese</name>
-            <column>$10</column>
-            <column>$17.50</column>
-        </item>
-        <item>
-            <name>9. Veggie Special</name>
+            <name>6. Veggie Special</name>
             <description>Sundried tomatoes, eggplant, cheese, artichokes, mushroom, olives &amp; garlic</description>
-            <column>$12</column>
-            <column>$18.50</column>
+            <column>12</column>
+            <column>18.50</column>
         </item>
         <item>
-            <name>10. Supreme</name>
+            <name>7. Supreme</name>
             <description>Onion, tomato, mushroom, spinach, garlic yoghurt, hummus, olives, eggplant &amp; cheese</description>
-            <column>$12</column>
-            <column>$19</column>
+            <column>12</column>
+            <column>19</column>
         </item>
         <item>
-            <name>11. Meat Lovers</name>
-            <description>Beef, chicken, Turkish sausage, cheese &amp; BBQ sauce</description>
-            <column>$14</column>
-            <column>$21</column>
-        </item>
-        <item>
-            <name>12. Kiymali (savoury mince)</name>
-            <description>Onion, Tomato &amp; cheese</description>
-            <column>$12.50</column>
-            <column>$19.90</column>
-        </item>
-        <item>
-            <name>13. Sucuklu</name>
-            <description>Turkish sausage, egg &amp; cheese</description>
-            <column>$12.50</column>
-            <column>$19.90</column>
-        </item>
-        <item>
-            <name>14. Seafood</name>
-            <description>Prawns, onion, tomato, garlic &amp; cheese</description>
-            <column>$12.50</column>
-            <column>$19.90</column>
-        </item>
-        <item>
-            <name>15. House Special</name>
+            <name>8. House Special</name>
             <description>Mushroom, tomato, garlic, olives, eggplant, jalapeno, potato &amp; cheese</description>
-            <column>$11.50</column>
-            <column>$18.50</column>
+            <column> </column>
+            <column> </column>
         </item>
 
-        <subtext> - Extras - </subtext>
-        <subtext>Beef or Chicken: $2 for small, $3.50 for Large</subtext>
+        <item style="right-align emphasize">
+            <name>Add Beef, Chicken or Sucuk (Turkish sausage)</name>
+            <column>2</column>
+            <column>3</column>
+        </item>
+        <item style="right-align emphasize">
+            <name>Other extras</name>
+            <description>(each)</description>
+            <column>1</column>
+            <column>2</column>
+        </item>
     </section>
 
     <section>
         <heading>
-            <name>Chips</name>
-            <column>Small</column>
-            <column>Medium</column>
+            <name>Turkish Pide - Beef, Chicken, Sucuk</name>
+            <column>Regular</column>
             <column>Large</column>
         </heading>
 
         <item>
-            <name> </name>
-            <column>$4</column>
-            <column>$5.50</column>
-            <column>$7.50</column>
+            <name>9. Meat Lovers</name>
+            <description>Beef, chicken, Turkish sausage, cheese &amp; BBQ sauce</description>
+            <column>14</column>
+            <column>21</column>
+        </item>
+        <item>
+            <name>10. Chicken with mushroom, onion &amp; cheese</name>
+            <column>12.50</column>
+            <column>21</column>
+        </item>
+        <item>
+            <name>11. Beef with mushroom, onion, capsicum &amp; cheese</name>
+            <column> </column>
+            <column> </column>
+        </item>
+        <item>
+            <name>12. Savoury Mince with Onion, Tomato &amp; cheese</name>
+            <column>12.50</column>
+            <column>19.90</column>
+        </item>
+        <item>
+            <name>13. Sucuk, egg &amp; cheese</name>
+            <column>12.50</column>
+            <column>19.90</column>
+        </item>
+
+        <item style="right-align emphasize">
+            <name>Add Beef, Chicken or Sucuk (Turkish sausage)</name>
+            <column>2</column>
+            <column>3</column>
+        </item>
+        <item style="right-align emphasize">
+            <name>Other extras</name>
+            <description>(each)</description>
+            <column>1</column>
+            <column>2</column>
         </item>
     </section>
 
-
     <section>
-        <image>assets/images/img6-min.jpeg</image>
-
         <heading>
-            <name>Burgers</name>
-            <column> </column>
-            <column>Combo</column>
-        </heading>
-
-        <item>
-            <name>Beef Burger Plain</name>
-            <description>Lettuce, tomato, onion, beetroot &amp; sauce</description>
-            <column>$7.50</column>
-            <column>$11.50</column>
-        </item>
-        <item>
-            <name>Beef Burger The Lot</name>
-            <description>Lettuce, tomato, onion, beetroot, cheese, egg, pineapple &amp; sauce</description>
-            <column>$9.50</column>
-            <column>$13.50</column>
-        </item>
-        <item>
-            <name>Chicken Fillet Burger</name>
-            <description>Lettuce &amp; mayo</description>
-            <column>$7.50</column>
-            <column>$11.50</column>
-        </item>
-        <item>
-            <name>Beef Kebab Burger</name>
-            <description>Lettuce, tomato, onion &amp; sauce</description>
-            <column>$6</column>
-            <column>$9.90</column>
-        </item>
-        <item>
-            <name>Chicken Kebab Burger</name>
-            <description>Lettuce, tomato, onion &amp; sauce</description>
-            <column>$6</column>
-            <column>$9.90</column>
-        </item>
-
-        <subtext>All extras come with Chips + Can of Drink OR Water</subtext>
-        <subtext> - Extras - </subtext>
-        <subtext>Cheese, Pineapple, or Egg: $0.80</subtext>
-    </section>
-
-
-    <section>
-    	<heading>
-            <name>Vegetarian Rolls</name>
-            <column> </column>
-            <column>Combo</column>
-        </heading>
-
-        <item>
-            <name>Felafel Roll</name>
-            <column>$8.50</column>
-            <column>$12.50</column>
-        </item>
-        <item>
-            <name>Zucchini Roll</name>
-            <column>$8.50</column>
-            <column>$12.50</column>
-        </item>
-        <item>
-            <name>Salad Roll</name>
-            <column>$6.50</column>
-            <column>$10.50</column>
-        </item>
-        <item>
-            <name>Felafel on a Plate</name>
-            <column>$11.50</column>
-            <column> </column>
-        </item>
-        
-        <subtext>All extras come with Chips + Can of Drink OR Water</subtext>
-        <subtext> - Extras - </subtext>
-        <subtext>Cheese: $1.80</subtext>
-    </section>
-    
-
-    <section>
-    	<heading>
-            <name>Kebab Snack Packs (Kebab meat + Chips)</name>
-            <column> </column>
-            <column>Combo</column>
-        </heading>
-
-        <item>
-            <name>Beef Snack Pack</name>
-            <column>$10</column>
-            <column>$12</column>
-        </item>
-        <item>
-            <name>Chicken Snack Pack</name>
-            <column>$10</column>
-            <column>$12</column>
-        </item>
-        <item>
-            <name>Mixed Snack Pack</name>
-            <column>$10.50</column>
-            <column>$12.50</column>
-        </item>
-
-        <subtext>All extras come with Can of Drink OR Water</subtext>
-        <subtext> - Extras - </subtext>
-        <subtext>Cheese: $1</subtext>
-        <subtext>Garlic Sauce: $1</subtext>
-    </section>
-
-
-    <section>
-    	<heading>
             <name>Gozleme</name>
-            <column>Each</column>
-            <column>Add Salad</column>
+            <column> </column>
         </heading>
 
         <item>
             <name>Spinach &amp; Feta Cheese</name>
-            <column>$10</column>
-            <column>$12</column>
+            <column>10</column>
         </item>
         <item>
-            <name>Potato &amp; Cheese</name>
-            <column>$10</column>
-            <column>$12</column>
+            <name>Potato, parsley &amp; Cheese</name>
+            <column>10</column>
         </item>
         <item>
-            <name>Savoury Mince</name>
-            <column>$11.50</column>
-            <column>$13.50</column>
+            <name>Savoury Mince &amp; Cheese</name>
+            <column>11</column>
+        </item>
+        <item>
+            <name>Chicken, Mushroom &amp; Cheese</name>
+            <column>11</column>
         </item>
     </section>
 
-
     <section>
-    	<heading>
+        <image>assets/images/meat.jpeg</image>
+
+        <heading>
             <name>Doner Kebabs</name>
+            <column>Beef Roll</column>
+            <column>Chicken or Mixed Roll</column>
+        </heading>
+
+        <item>
+            <name>Regular</name>
+            <description>Lettuce, tomato, onion &amp; sauce</description>
+            <column>8</column>
+            <column>9</column>
+        </item>
+        <item>
+            <name>Junior</name>
+            <description>Lettuce, tomato, onion &amp; sauce</description>
+            <column>7</column>
+            <column>8</column>
+        </item>
+        <item>
+            <name>The Lot</name>
+            <description>Lettuce, tomato, onion, hummus, tabouli, cheese &amp; sauce</description>
+            <column>10.50</column>
+            <column>11.50</column>
+        </item>
+        <item>
+            <name>King Regular</name>
+            <description>Larger than normal size and comes with double bread</description>
+            <column>13</column>
+            <column>14</column>
+        </item>
+        <item>
+            <name>Hawaiian</name>
+            <description>Regular with cheese, sour cream, pineapple &amp; BBQ sauce</description>
+            <column>10.50</column>
+            <column>11.50</column>
+        </item>
+        <item>
+            <name>Hawaiian</name>
+            <description>Regular with cheese, sour cream, jalapeno &amp; chilli sauce</description>
+            <column>10.50</column>
+            <column>11.50</column>
+        </item>
+
+        <item style="right-align emphasize">
+            <name>COMBO</name>
+            <description>With Chips &amp; Can of Drink or Water</description>
+            <column>add 5</column>
+            <column> </column>
+        </item>
+        <item style="right-align emphasize">
+            <name>Extra Meat</name>
+            <column>add 2</column>
+            <column> </column>
+        </item>
+        <item style="right-align emphasize">
+            <name>Extras</name>
+            <description>Cheese, sour cream, tabouli, hummus, pineapple, Olives, garlic</description>
+            <column>add 1 each</column>
+            <column> </column>
+        </item>
+    </section>
+
+    <section>
+        <heading>
+            <name>Plates</name>
+            <column> </column>
+        </heading>
+
+        <item>
+            <name>Kebab</name>
+            <description>Choice of meat with salad + Bread or Rice</description>
+            <column>14</column>
+        </item>
+        <item>
+            <name>Kebab &amp; Rice</name>
+            <description>Choice of meat cooked with onion, capsicum and mushroom served with rice</description>
+            <column>14</column>
+        </item>
+    </section>
+
+    <section>
+        <heading>
+            <name>Vegetarian Rolls</name>
+            <column> </column>
+        </heading>
+
+        <item>
+            <name>Felafel Roll</name>
+            <column>8.50</column>
+        </item>
+        <item>
+            <name>Zucchini Roll</name>
+            <column>8.50</column>
+        </item>
+        <item>
+            <name>Salad Roll</name>
+            <column>6.50</column>
+        </item>
+
+        <item style="right-align emphasize">
+            <name>COMBO</name>
+            <description> With Chips &amp; Can of Drink or Water</description>
+            <column>add 5</column>
+        </item>
+        <item style="right-align emphasize">
+            <name>Extras</name>
+            <description>Cheese, sour cream, tabouli, hummus, pineapple, Olives, garlic</description>
+            <column>add 1 each</column>
+        </item>
+
+        
+        <subtext>Lettuce, tomato, onion, hummus and tabouli</subtext>
+    </section>
+
+    <section>
+        <heading>
+            <name>Kebab Snack Packs</name>
             <column>Regular</column>
-            <column>The Lot</column>
-            <column>King</column>
+            <column>Large</column>
         </heading>
-    </section>
 
+        <item>
+            <name>Beef Snack Pack</name>
+            <column>10</column>
+            <column>15</column>
+        </item>
+        <item>
+            <name>Chicken Snack Pack</name>
+            <column>11</column>
+            <column>16</column>
+        </item>
+        <item>
+            <name>Mixed Snack Pack</name>
+            <column>11</column>
+            <column>16</column>
+        </item>
+        
+
+        <item style="right-align emphasize">
+            <name>Extra Meat</name>
+            <column>add 2</column>
+            <column> </column>
+        </item>
+        <item style="right-align emphasize">
+            <name>Extras</name>
+            <description>Extras we recommend Cheese, garlic sauce</description>
+            <column>add 1 each</column>
+            <column> </column>
+        </item>
+        
+        <subtext>(Kebab meat + Chips) with sauce</subtext>
+    </section>
 
     <section>
-    	<heading>
-            <name>Plates (come with Roll + Chips + Drink)</name>
+        <image>assets/images/burger2.jpeg</image>
+
+        <heading>
+            <name>Burgers</name>
             <column> </column>
         </heading>
 
         <item>
-            <name>Beef Kebab Plate</name>
-            <column>$12</column>
+            <name>Beef Burger</name>
+            <description>Lettuce, tomato, onion, beetroot &amp; sauce</description>
+            <column>7.50</column>
         </item>
         <item>
-            <name>Chicken Kebab Plate</name>
-            <column>$13</column>
+            <name>Beef Kebab Burger</name>
+            <description>Lettuce, tomato, onion &amp; sauce</description>
+            <column>6</column>
         </item>
         <item>
-            <name>Mixed Kebab Plate</name>
-            <column>$13</column>
+            <name>Chicken Kebab Burger</name>
+            <description>Lettuce, tomato, onion &amp; sauce</description>
+            <column>6</column>
         </item>
-        <item>
-            <name>Plate with Salad &amp; Bread or Rice</name>
-            <column> </column>
-        </item>
+        
 
-        <subtext> - Extras - </subtext>
-        <subtext>Meat: $2.00</subtext>
-        <subtext>Cheese or Sour Cream: $1.00</subtext>
-        <subtext>Tabouli, hummus, pineapple, Olives, garlic: $1.00 each</subtext>
+        <item style="right-align emphasize">
+            <name>COMBO</name>
+            <description>With Chips &amp; Can of Drink or Water</description>
+            <column>add 5</column>
+        </item>
+        <item style="right-align emphasize">
+            <name>Extras</name>
+            <description>Cheese, pineapple, or egg</description>
+            <column>add 1 each</column>
+        </item>
     </section>
-
 
     <section>
-    	<heading>
-            <name>Kebab &amp; Rice - Kebab meat cooked with onion, capsicum &amp; mushroom</name>
-            <column> </column>
+        <image>assets/images/chips.jpeg</image>
+
+        <heading>
+            <name> </name>
+            <column>Small</column>
+            <column>Regular</column>
+            <column>Large</column>
         </heading>
 
         <item>
-            <name>Beef Kebab with Rice</name>
-            <column>$11</column>
+            <name>Chips</name>
+            <column>4</column>
+            <column>5.50</column>
+            <column>7.50</column>
         </item>
         <item>
-            <name>Chicken Kebab with Rice</name>
-            <column>$12</column>
+            <name>Garlic Bread</name>
+            <column> </column>
+            <column>5.50</column>
+            <column> </column>
         </item>
-        <item>
-            <name>Mixed Kebab with Rice</name>
-            <column>$12</column>
-        </item>
-
-        <subtext> - Extras - </subtext>
-        <subtext>Meat: $2.00</subtext>
-        <subtext>Cheese or Sour Cream: $1.00</subtext>
-        <subtext>Tabouli, hummus, pineapple, Olives, garlic: $1.00 each</subtext>
     </section>
-
 
 </menu>
