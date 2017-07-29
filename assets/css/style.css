@@ -32,6 +32,10 @@ html {
 
 
 
+.hideOnMobile {}
+.hideOnTablet {}
+
+
 
 .right {
     float: right;
@@ -153,6 +157,10 @@ div.content-wide {
     .right, .left {
         width: 55%;
     }
+
+    .hideOnTablet {
+        display: none;
+    }
 }
 
 /* PHONE */
@@ -168,6 +176,10 @@ div.content-wide {
     .right, .left {
         clear: both;
         width: 100%;
+    }
+
+    .hideOnMobile {
+        display: none;
     }
 }
 
