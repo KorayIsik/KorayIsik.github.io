@@ -13,9 +13,8 @@ menu {
 
 .menu-emphasize {
     font-weight: bold;
+    background-color: #ffd7c1 !important;
 }
-
-
 
 
 menu .leftText {

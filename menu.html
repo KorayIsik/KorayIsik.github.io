@@ -24,6 +24,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css">    
     <script src="assets/js/menuXMLParser.js"></script>
+    <script src="assets/js/slideshow.js"></script>
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/loader.js"></script>
 </head>
@@ -51,24 +52,27 @@
 
     <button onclick="topFunction()" id="button_backToTop" title="Back to Top"><i class="fa fa-arrow-up" aria-hidden="true" style="font-size: 30px;"></i></button>
 
+    <div class="banner">
+		<div class="slideshow">
+			<div class="title">Test Site</div>
+			<div class="slideshow-slide" style="display: block; background-image: url('assets/images/gozleme.jpeg');"></div>
+			<div class="slideshow-slide" style="background-image: url('assets/images/burger.jpeg');"></div>
+			<div class="slideshow-slide" style="background-image: url('assets/images/kebabs.jpeg');"></div>
+		</div>
+	</div>
 
     <div class="content">
-        <div class="banner">
-            <h1 class="title">Test Site</h1>
-            <div class="slideshow-slide" style="display: block; background-image: url('assets/images/banner.png');"></div>
-        </div>
-
         <div class="text-centered">
             <h2> Menu </h2>
             <noscript>
                 Please enable Javascript in your browser settings to view the menu.
                 <br>
-                <a href="assets/downloads/Menu.pdf">View PDF instead</a>
+                <a href="assets/downloads/Menu.pdf" target="_blank">View PDF instead</a>
             </noscript>
         </div>
         <div id="loaderContainer"><div id="menuLoader" class="animate-loader"></div></div>
         <div style="display:none;" id="menuContainer" class="animate-bottom" onload="">     
-            <a href="assets/downloads/Menu.pdf">Download Menu</a>
+            <a href="assets/downloads/Menu.pdf" target="_blank">Download Menu</a>
             <br><br>
             <div id="menu"></div>
         </div>
@@ -80,6 +84,25 @@
 			<a href="mailto:?" class="fa fa-envelope-o" aria-hidden="true"></a>
 		</div>
     </div>
+
+    <br><br><br><br>
+
+	<div class="footer">
+		<div class="content">
+			<p style="clear: right;">&copy; Name of GK Shop</p>
+
+			<table border="0px">
+				<tr>
+					<td><i class="fa fa-phone" aria-hidden="true"></i></td>
+					<td>Phone:  (+61) 123 456 789</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-envelope" aria-hidden="true"></i></td>
+					<td>Email:  fakeEmail@mailinator.com</td>
+				</tr>
+			</table>
+		</div>
+	</div>
 
 </body>
 </html>
